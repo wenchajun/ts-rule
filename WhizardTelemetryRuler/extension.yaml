@@ -1,0 +1,29 @@
+apiVersion: v1
+name: WhizardTelemetryRuler
+namespace: kubesphere-logging-system
+version: 0.1.0
+displayName:
+  zh: WhizardTelemetryRuler 日志处理扩展组件
+  en: WhizardTelemetryRuler Log Processing Extension
+description:
+  zh: WhizardTelemetryRuler 提供一个K8s Webhook（whizard-telemetry-ruler），一个集群CRD（ClusterRuleGroup），以及一个用于配置接收端信息的K8s configmap(sink)。
+  en: WhizardTelemetryRuler provides a K8s webhook (whizard-telemetry-ruler), a cluster CRD (ClusterRuleGroup), and a K8s ConfigMap (sink) for configuring the message receiver.
+category: observability
+keywords:
+  - monitoring-logging
+home: https://kubesphere.io
+provider:                   
+  zh:
+    name: "青云科技"
+    email: "kubesphere@yunify.com"
+    url: "https://www.qingcloud.com"
+  en:
+    name: "QingCloud"
+    email: "kubesphere@yunify.com"
+    url: "https://www.qingcloud.com"
+staticFileDirectory: static
+sources:
+  - https://github.com/kubesphere
+kubeVersion: ">=1.19.0"
+ksVersion: ">=4.0.0-0"
+icon: ./static/favicon.svg

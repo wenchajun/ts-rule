@@ -1,0 +1,17 @@
+image:
+  repository: kubesphere/whizard-telemetry-ruler
+  tag: v0.1.0
+  pullPolicy: Always
+imagePullSecrets: []
+resources: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}
+args:
+  - '--port=8080'
+config:
+#  sinks:
+#  - name: exampleSink
+#    type: webhook
+#    config:
+#      url: https://example.com/webhook
